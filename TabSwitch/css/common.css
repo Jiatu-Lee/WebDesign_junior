@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+li {
+    float: left;
+    background-color: #868686;
+    padding: 4px;
+    color: white;
+    border: 1px solid #ffffff;
+}
+
+.tab {
+    background-color: #6e6e6e;
+    border: 1px solid #6e6e6e;
+}
+
+.div1 {
+    display: block;
+    clear: both;
+    color: #ffffff;
+    background-color: #6e6e6e;
+    width: 200px;
+    height: 100px;
+    padding: 2px;
+}
+
+.content {
+    display: none;
+    clear: both;
+    color: #ffffff;
+    background-color: #6e6e6e;
+    width: 200px;
+    height: 100px;
+}
