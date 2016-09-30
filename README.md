@@ -1,4 +1,4 @@
-![webDesign](image_rel/cover.png)
+![webDesign](image_rel/book_cover.png)
 ##《高级网页设计教程》（东软电子出版社）
 大三（上）的一门课程
 
