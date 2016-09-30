@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e835906c-2e06-432a-b27a-7259a05968be" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubleWing/css/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DoubleWing/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Menu/css/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Menu/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Menu/js/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Menu/js/jquery-3.1.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TabSwitch/css/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TabSwitch/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TabSwitch/js/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TabSwitch/js/jquery-3.1.1.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e835906c-2e06-432a-b27a-7259a05968be" name="Default" comment="" />
     <ignored path="WebDesign_junior.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -157,7 +145,7 @@
     <property name="js-jscs-nodeInterpreter" value="E:\Program Files\nodejs\node.exe" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -253,12 +241,12 @@
       <workItem from="1474846539072" duration="80000" />
       <workItem from="1475028297462" duration="4876000" />
       <workItem from="1475220269168" duration="5964000" />
-      <workItem from="1475229542128" duration="615000" />
+      <workItem from="1475229542128" duration="1267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37641000" />
+    <option name="totallyTimeSpent" value="38293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="1" width="1354" height="766" extended-state="1" />
