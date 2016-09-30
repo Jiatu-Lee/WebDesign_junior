@@ -30,5 +30,6 @@
 	+ [webStrom](http://www.jetbrains.com/webstorm/)、[HBuilder](http://www.dcloud.io)
 + 文本编辑器
 	+ [sublime text](http://www.sublimetext.com)、[notepad++](http://notepad-plus.en.softonic.com)
+
 ##说明
 本项目所有文件的编辑全部在webStrom上完成，安装插件Emmet。
