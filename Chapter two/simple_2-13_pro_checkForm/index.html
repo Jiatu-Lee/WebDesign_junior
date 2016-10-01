@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>长安道</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <script src="js/common.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="center">
+        <form id="jiatu" name="jiatu" action="hello.html" method="get">
+               <ul>
+                   <li><label for="user">用户名:</label><input onchange="checkUser()" class="control" type="input" name="user"
+                                                            id="user">
+                       <span id="us" class="error">请输入正确的用户名</span></li>
+                   <li><label for="pwd">密&nbsp;&nbsp;&nbsp;&nbsp;码:</label><input onchange="checkPwd()" class="control"
+                                                                                  type="input" name="pwd" id="pwd">
+                       <span id="ps" class="error">请输入6~18位的密码</span></li>
+                   <li><label for="pwd2">确&nbsp;&nbsp;&nbsp;&nbsp;认:</label><input onchange="checkPwd2()" class="control"
+                                                                                   type="input" name="pwd2" id="pwd2">
+                       <span id="ps2" class="error">两次输入的密码不匹配</span></li>
+                   <li class="last"><input id="submit" onclick="return check()" type="submit" value="登录" class="sm">
+                       <input id="reset" type="reset" value="清空">
+                   </li>
+               </ul>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

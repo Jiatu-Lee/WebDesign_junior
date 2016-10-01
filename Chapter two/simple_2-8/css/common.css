@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+#jiatu {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #003399;
+    font-size: 20px;
+    text-align: center;
+    line-height: 130%;
+    color: rgb(255, 255, 255);
+    background: #CCC;
+}
+
+/*
+
+background、color、background-color、backgroundColor的区别：
+background包含background-color
+color是字体的颜色
+background-color是背景的颜色
+background可以定义背景的一切内容，包括颜色、图片、图片位置等东西
+类似于border和border-color，background和border都是把一系列属性写在一行的写法，background-color和border-color则是只定义颜色
+backgroundColor是JavaScript 编程时使用的字段名（小驼峰原则），background-color则是CSS 属性名*/

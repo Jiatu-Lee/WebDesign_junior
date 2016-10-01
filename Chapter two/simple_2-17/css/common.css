@@ -1,0 +1,19 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+#sr {
+    width: 100px;
+    font-size: 14px;
+    color: #999;
+    margin-left: 130px;
+}
+
+#sr:focus {
+    color: #099;
+}

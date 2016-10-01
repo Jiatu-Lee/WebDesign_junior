@@ -1,0 +1,20 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+h3 {
+    height: 36px;
+    font-size: 20px;
+}
+
+#box {
+    width: 120px;
+    height: 120px;
+    background-color: #c00;
+    display: none;
+}

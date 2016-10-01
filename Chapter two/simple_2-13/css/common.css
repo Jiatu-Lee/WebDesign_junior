@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+#form1 {
+    width: 350px;
+    height: auto;
+    font-size: 14px;
+}
+
+#form1 label {
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    text-align: right;
+    line-height: 40px;
+}

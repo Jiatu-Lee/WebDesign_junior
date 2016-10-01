@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: #FFFFFF;
+}
+div#jiatu{
+    width:100%;
+    height: 200px;
+    background: #cc0000;
+}

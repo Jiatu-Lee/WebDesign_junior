@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+ul, li {
+    list-style: none;
+}
+
+#tab {
+    width: 300px;
+    height: auto;
+}
+
+.top {
+    width: auto;
+    height: 33px;;
+}
+
+.top li {
+    border: 1px solid #039;
+    width: 98px;
+    height: 31px;
+    text-align: center;
+    line-height: 31px;
+    font-size: 14px;
+    float: left;
+}
+
+.tab-content {
+    width: auto;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+    clear: both;
+    background: #CCCCCC;
+}
+
+.none {
+    display: none;
+}

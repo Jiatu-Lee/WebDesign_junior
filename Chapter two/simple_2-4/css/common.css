@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+#box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #006;
+    margin: 10px;
+}
