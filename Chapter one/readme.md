@@ -1,5 +1,3 @@
-#第一章节
-
 ##网站基本结构目录
 
 -js、-css、-images、index.html……（-表示文件夹）
@@ -30,5 +28,6 @@
 	+ [webStrom](http://www.jetbrains.com/webstorm/)、[HBuilder](http://www.dcloud.io)
 + 文本编辑器
 	+ [sublime text](http://www.sublimetext.com)、[notepad++](http://notepad-plus.en.softonic.com)
+
 ##说明
 本项目所有文件的编辑全部在webStrom上完成，安装插件Emmet。
