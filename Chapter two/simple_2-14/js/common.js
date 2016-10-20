@@ -1,7 +1,7 @@
 /**
  * Created by Jiatu on 2016/10/1.
  */
-var imgs = new Array("Autumn_begins.jpg", "Clear&bright.jpg", "Grain_in_ear.jpg", "Grain_rain.jpg");
+var imgs = new Array("1.jpg", "2.jpg", "3.jpg", "4.jpg");
 var i = 0;
 var photo = document.getElementsByTagName("img")[0];
 setInterval("change()", 2000);
