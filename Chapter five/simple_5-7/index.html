@@ -1,0 +1,54 @@
+<!--CSS3平移-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3平移</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background: #ffffff;
+        }
+        .img-list{
+            margin: 20px;
+            float: left;
+            width: 130px;
+            height: 190px;
+            transition: all 1s;
+        }
+        .img-list p{
+            font-size: 12px;
+            line-height: 22px;
+            color: #003399;
+            text-align: center;
+            width: auto;
+            height: 22px;
+            background: #ffffff;
+        }
+        .img-list:hover{
+            transform: translateX(-30px);
+        }
+    </style>
+</head>
+<body>
+<div class="img-list"><img src="images/1.jpg" alt=" " width="190" height="130">
+    <p>商品名称</p>
+    <p>￥2999.0</p>
+</div>
+<div class="img-list"><img src="images/2.jpg" alt=" " width="190" height="130">
+    <p>商品名称</p>
+    <p>￥2999.0</p>
+</div>
+<div class="img-list"><img src="images/3.jpg" alt=" " width="190" height="130">
+    <p>商品名称</p>
+    <p>￥2999.0</p>
+</div>
+<div class="img-list"><img src="images/4.jpg" alt=" " width="190" height="130">
+    <p>商品名称</p>
+    <p>￥2999.0</p>
+</div>
+</body>
+</html>

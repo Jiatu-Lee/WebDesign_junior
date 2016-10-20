@@ -1,0 +1,44 @@
+<!--三种渐变-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>渐变</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background: #FFFFFF;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #003366;
+            font-size: 40px;
+            margin: 20px;
+            float: left;
+            color: #ff0000;
+            line-height: 200px;
+            text-align: center;
+            border-radius: 30px;
+        }
+        .linear{
+            background: linear-gradient(#000000,#FFFFFF);
+        }
+        .radial{
+            background: radial-gradient(#000000,#FFFFFF);
+        }
+        .alpha{
+            background: rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+<div class="box linear">线性渐变</div>
+<div class="box radial">径向渐变</div>
+<div class="box alpha">透明背景</div>
+</body>
+</html>

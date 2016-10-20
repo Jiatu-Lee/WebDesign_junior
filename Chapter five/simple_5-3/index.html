@@ -1,0 +1,65 @@
+<!--CSS3动画-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3动画</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background: #FFFFFF;
+        }
+
+        .side-list {
+            width: 200px;
+            height: auto;
+            border: 1px solid #CCCCCC;
+        }
+
+        .side-list h2 {
+            font-size: 16px;
+            line-height: 30px;
+            border-bottom: 1px solid #CCCCCC;
+            padding-left: 20px;
+            transition: all 2s;
+        }
+
+        .side-list li {
+            width: auto;
+            height: 20px;
+            line-height: 30px;
+            font-size: 14px;
+            transition: all 2s;
+            list-style: none;
+            padding-left: 20px;
+            border-bottom: 1px dashed #CCCCCC;
+        }
+
+        .side-list li:hover {
+            text-indent: 60px;
+            color: #003366;
+        }
+
+        .side-list h2:hover {
+            text-shadow: 120px 5px 2px #036;
+        }
+
+        /*text-indent:首行缩进*/
+    </style>
+</head>
+<body>
+<div class="side-list">
+    <h2>应用下载</h2>
+    <ul>
+        <li>IOS版</li>
+        <li>Android版</li>
+        <li>Windows版</li>
+        <li>BlackBerry版</li>
+    </ul>
+</div>
+</body>
+</html>

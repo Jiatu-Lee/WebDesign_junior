@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+.list {
+    margin: 20px;
+    float: left;
+    width: 320px;
+    height: 220px;
+    border: 1px solid #999999;
+    overflow: hidden;
+    position: relative;
+}
+
+.list span {
+    font-size: 12px;
+    color: #ff9;
+    background-color: #ffff99;
+    text-align: center;
+    width: 20px;
+    height: 0px;
+    padding-top: 30px;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    transition: all 0.5s;
+}
+
+.list span:hover {
+    height: 70px;
+}
+
+.text {
+    overflow: hidden;
+    position: absolute;
+    width: 320px;
+    height: auto;
+    left: 0px;
+    top: 180px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 1s;
+}
+
+.text h4 {
+    padding: 0px 25px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0px;
+}
+
+.text p {
+    padding: 0px 25px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-indent: 2em;
+    width: auto;
+    height: 180px;
+    overflow: hidden;
+}
+
+.text:hover {
+    top: 100px;
+    background: rgba(0, 0, 66, 0.5);
+}
