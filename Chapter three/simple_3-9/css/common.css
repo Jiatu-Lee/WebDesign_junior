@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+a {
+    color: #06346F;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.box p {
+    background-color: #FFF;
+    bottom: 0px;
+    color: #303537;
+    font-size: 18px;
+    font-weight: bold;
+    height: 87px;
+    line-height: 87px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    filter: alpha(opacity=50); /*ie*/
+    opacity: 0.5; /* firefox*/
+    display: none;
+}
+
+.box {
+    height: 520px;
+    width: 800px;
+    position: relative;
+    z-index: 100;
+    padding: 3px;
+    border: 1px solid #CCCCCC;
+}

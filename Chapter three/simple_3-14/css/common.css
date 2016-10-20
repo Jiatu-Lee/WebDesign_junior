@@ -1,0 +1,57 @@
+/*
+* {
+    padding: 0px;
+    margin: 0px;
+}
+*/
+
+body {
+    background: #FFFFFF;
+}
+
+ul,li {
+    list-style-type: none;
+}
+
+.tab {
+    width: 251px;
+    border: 1px solid #CCCCCC;
+}
+
+.tab_title {
+    height: 30px;
+}
+
+.tab_title li {
+    width: 83px;
+    height: 29px;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    line-height: 29px;
+    border-right: 1px solid #CCCCCC;
+    background: #EEF;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.tab_title .last {
+    border-right-width: 0px;
+}
+
+.tab_content {
+    clear: both;
+    height: 200px;
+}
+
+.tab_title .current {
+    font-weight: bold;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 2px solid #cc0000;
+    color: #cc0000;
+    background: #FFF;
+    margin-top: -1px;
+}
+
+.none {
+    display: none;
+}
